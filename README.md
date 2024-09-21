@@ -1,4 +1,4 @@
-# ACM UCR Website Template
+# The Developer's Station
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -11,7 +11,7 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[The Developer's Station Figma Design File](https://www.figma.com/design/o7vBA5IwUW0RKYrOZxY0AO/The-%22Transit-HUB%22?node-id=0-1&node-type=canvas&t=O03vrboCjxvrIeP8-0)
 
 ## Node.js
 
