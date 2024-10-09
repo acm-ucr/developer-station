@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        description: ['25.26px','35.98px']
+        description: ["25.26px", "35.98px"],
       },
       lineHeight: {
         185: "185px",
         87: "87px",
       },
-      fontFamily: { 
+      fontFamily: {
         Malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
