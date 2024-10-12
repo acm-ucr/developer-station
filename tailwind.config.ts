@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
-      colors :{
-        'dark-cyan': "#023851",
+      colors: {
+        "dark-cyan": "#023851",
       },
       fontSize: {
         description: ["25.26px", "35.98px"],
