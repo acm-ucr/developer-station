@@ -4,10 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-yellow": "#FCE490",
-        "dark-cyan": "#023851",
-      },
-      fontFamily: {
+        devstation: {
+          "green-100": "#114C03",
+          "yellow-100": "#FCE490",
+          "cyan-100": "#023851",
+        },
+       },
+       fontFamily: {
         Malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
