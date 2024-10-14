@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "course-layout-background": "#498A39",
+        devstation: {
+          "green-100": "#114C03",
+          "green-200": "#498A39",
+        },
       },
       fontFamily: {
         Malayalam: ["Malayalam MN", "sans-serif"],
