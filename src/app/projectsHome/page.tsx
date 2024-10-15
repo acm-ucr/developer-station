@@ -1,7 +1,8 @@
-import ProjectPic from "@/media/Projectshome.webp";
+import ProjectPic from "@/public/images/Projectshome.svg";
+import Image from "next/image";
 
-const projectsHome = () => {
-  return <img src={ProjectPic.src} />;
+const ProjectsHome = () => {
+  return <Image alt="header" src={ProjectPic} />;
 };
 
-export default projectsHome;
+export default ProjectsHome;
