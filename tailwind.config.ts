@@ -10,7 +10,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        Malayalam: ["Malayalam MN", "sans-serif"],
+        malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
   },
