@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         devstation: {
           "green-100": "#114C03",
+          "green-200": "#498A39",
         },
       },
       fontFamily: {
