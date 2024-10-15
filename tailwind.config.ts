@@ -6,7 +6,12 @@ module.exports = {
       colors: {
         devstation: {
           "green-100": "#114C03",
+          "yellow-100": "#FCE490",
+          "cyan-100": "#023851",
         },
+       },
+       fontFamily: {
+        Malayalam: ["Malayalam MN", "sans-serif"],
       },
       fontFamily: {
         malayalam: ["Malayalam MN", "sans-serif"],
