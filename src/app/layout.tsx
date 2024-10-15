@@ -1,8 +1,5 @@
 import "./globals.css";
-import { Noto_Serif_Malayalam } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
-
-const malayalam = Noto_Serif_Malayalam({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Developer's Station",
@@ -17,7 +14,7 @@ type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={malayalam.className}>
+      <body className="font-malayalam">
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
     </html>

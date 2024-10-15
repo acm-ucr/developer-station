@@ -8,6 +8,9 @@ module.exports = {
           "green-100": "#114C03",
         },
       },
+      fontFamily: {
+        malayalam: ["Malayalam MN", "sans-serif"],
+      },
     },
   },
   plugins: [],
