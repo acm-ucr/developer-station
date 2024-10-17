@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        devstation: {},
+        devstation: {
+          "green-100": "#114C03",
+          "green-200": "#498A39",
+        },
+      },
+      fontFamily: {
+        malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
   },
