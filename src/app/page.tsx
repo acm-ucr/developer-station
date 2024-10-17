@@ -1,9 +1,9 @@
 import Image from "next/image";
-import train from "/public/landingpagetrain.png";
-import path from "/public/landingpagetrainpath.png";
-import rectangle35 from "/public/Rectangle35.png";
-import rectangle36 from "/public/Rectangle36.png";
-import rectangle37 from "/public/Rectangle37.png";
+import train from "/public/landing/landingpagetrain.png";
+import path from "/public/landing/landingpagetrainpath.png";
+import rectangle35 from "/public/landing/Rectangle35.png";
+import rectangle36 from "/public/landing/Rectangle36.png";
+import rectangle37 from "/public/landing/Rectangle37.png";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <div className="pb-4">
         <div className="h-1/8 flex flex-row justify-between p-4">
           <div className="h-8 w-8 rounded-full bg-gray-300"></div>
-          <div className="ml-32 h-8 w-24 bg-gray-300 text-center">
+          <div className="ml-4 h-8 w-24 bg-gray-300 text-center">
             <p className="bg-gray-300 p-2">LOGO</p>
           </div>
           <div className="flex flex-row space-x-2">
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
 
         <div className="h-1/8 flex w-full flex-col space-y-4 bg-blue-950 pt-8">
-          <Image className="ml-12 h-1/6 w-1/6" src={rectangle36} alt=""></Image>
+          <Image className="ml-4 h-1/6 w-1/6" src={rectangle36} alt=""></Image>
           <div className="bottom-4 flex h-full w-full flex-row">
             <Image
               className="ml-40 mr-12 h-1/6 w-1/2"
@@ -38,21 +38,9 @@ const Home = () => {
       </div>
 
       <div className="relative h-1/2 bg-blue-950">
-        <Image
-          className="absolute h-3/4 w-full"
-          src={rectangle35}
-          alt=""
-        ></Image>
-        <Image
-          className="relative top-48 h-5/6 w-full"
-          src={path}
-          alt=""
-        ></Image>
-        <Image
-          className="absolute top-8 h-full w-full"
-          src={train}
-          alt=""
-        ></Image>
+        <Image className="absolute h-3/4 w-full" src={rectangle35} alt="" />
+        <Image className="relative top-48 h-5/6 w-full" src={path} alt="" />
+        <Image className="absolute top-8 h-full w-full" src={train} alt="" />
       </div>
 
       <div className="flex h-1/4 flex-row bg-blue-950 pt-12">
