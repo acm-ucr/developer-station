@@ -30,7 +30,7 @@ const Home = () => {
               src={rectangle37}
               alt=""
             ></Image>
-            <h1 className="w-full text-5xl text-yellow-300">
+            <h1 className="font-sans-serif w-full text-[3vw] text-yellow-300">
               DEVELOPER STATION
             </h1>
           </div>
