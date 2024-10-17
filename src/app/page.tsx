@@ -1,9 +1,9 @@
 import Image from "next/image";
-import train from "/public/landingpagetrain.png";
-import path from "/public/landingpagetrainpath.png";
-import rectangle35 from "/public/Rectangle35.png";
-import rectangle36 from "/public/Rectangle36.png";
-import rectangle37 from "/public/Rectangle37.png";
+import train from "/public/landingpagetrain.webp";
+import path from "/public/landingpagetrainpath.webp";
+import rectangle35 from "/public/Rectangle35.webp";
+import rectangle36 from "/public/Rectangle36.webp";
+import rectangle37 from "/public/Rectangle37.webp";
 
 const Home = () => {
   return (
