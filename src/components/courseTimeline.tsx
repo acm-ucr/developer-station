@@ -1,32 +1,30 @@
 const CourseTimeline = () => {
   return (
-    <div className="mx-auto flex w-full max-w-6xl flex-col items-start justify-start rounded-lg bg-[#003850] px-8 py-12 text-[#FFF4BA]">
-      {/* Title */}
-      <h1 className="mb-8 w-full text-center text-4xl">Timeline of Course</h1>
+    <div className="mx-auto flex w-[140vh] flex-col items-center justify-start gap-[2vh] rounded-xl bg-[#023851] px-[12vh] py-[6vh] font-malayalam text-[#FFF4B8]">
+      <h1 className="text-center text-[3.25vh]">Timeline of Course</h1>
 
-      {/* First List */}
-      <div className="mb-8">
-        <h2 className="mb-4 text-2xl">Lorem Ipsum</h2>
-        <ul className="ml-7 list-[upper-alpha] space-y-8">
-          <li className="pl-4">
+      <div>
+        <h2 className="mb-[2vh] text-[3.25vh]">Lorem Ipsum</h2>
+        <ul className="relative ml-[2vh] space-y-[4vh] pl-[4vh] *:text-[1.75vh] *:before:absolute *:before:left-0">
+          <li className="before:content-['A']">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           </li>
-          <li className="pl-4">
+          <li className="before:content-['B']">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           </li>
-          <li className="pl-4">
+          <li className="before:content-['C']">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           </li>
-          <li className="pl-4">
+          <li className="before:content-['D']">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
@@ -35,17 +33,16 @@ const CourseTimeline = () => {
         </ul>
       </div>
 
-      {/* Second List */}
-      <div className="mb-8">
-        <h2 className="mb-4 text-2xl">Lorem Ipsum</h2>
-        <ul className="ml-7 list-[upper-alpha] space-y-8">
-          <li className="pl-1">
+      <div>
+        <h2 className="mb-[2vh] text-[3.25vh]">Lorem Ipsum</h2>
+        <ul className="relative ml-[2vh] space-y-[4vh] pl-[4vh] *:text-[1.75vh] *:before:absolute *:before:left-0">
+          <li className="before:content-['A']">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           </li>
-          <li className="pl-1">
+          <li className="before:content-['B']">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
             Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
