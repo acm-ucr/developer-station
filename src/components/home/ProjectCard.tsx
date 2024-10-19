@@ -1,44 +1,29 @@
 import Image, { StaticImageData } from "next/image";
 
 interface ProjectCardProps {
-  title: string;
   backgroundImage?: StaticImageData;
-  description1: string;
-  description2?: string;
+  description: string;
+  title: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
-  description1,
   backgroundImage,
-  description2,
+  description,
   title,
 }) => {
   return (
-    <div className="border-7 flex h-full w-full flex-col items-center justify-center gap-2 rounded-2xl border-[#529546] bg-[#3b7227b2] p-5">
-      <div className="relative mb-2 flex min-h-[55%] w-[75%] items-end justify-end overflow-hidden rounded-2xl">
+    <div className="flex flex-col items-center rounded-2xl border-4 border-devstation-project-card-border-green bg-devstation-project-card-bg-green p-5">
+      <div className="mb-2 flex w-3/4 items-end justify-end rounded-2xl">
         {backgroundImage && (
-          <Image
-            src={backgroundImage}
-            alt={title}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-2xl"
-          />
+          <Image src={backgroundImage} alt={title} className="rounded-2xl" />
         )}
-        <div className="font-[Malayalam MN] absolute inset-0 flex items-end justify-end p-[2px_20px] text-right uppercase">
+
+        <div className="absolute flex items-end justify-end p-[2px_20px] text-right uppercase">
           {title}
         </div>
       </div>
 
-      <div className="font-[Malayalam MN] flex w-[80%] items-center text-center text-[10px] font-normal leading-[15px] text-white">
-        {description1}
-      </div>
-
-      {description2 && (
-        <div className="font-[Malayalam MN] flex w-[80%] items-center text-center text-[10px] font-normal leading-[15px] text-white">
-          {description2}
-        </div>
-      )}
+      <div className="w-2/3 text-center text-xs">{description}</div>
     </div>
   );
 };
