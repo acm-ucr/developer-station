@@ -1,7 +1,6 @@
 const TryCourseButton = () => {
   return (
     <div className="relative inline-block w-[20%] p-1.5">
-      {/* Larger shape beneath */}
       <div className="absolute inset-0 rounded-full bg-[#cff2aa]"></div>
 
       <div className="flex justify-center">
