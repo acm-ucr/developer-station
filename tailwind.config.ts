@@ -6,8 +6,8 @@ module.exports = {
       colors: {
         devstation: {
           "green-100": "#114C03",
-          "green-200": "#082A00",
-          "green-300": "#498A39",
+          "green-200": "#498A39",
+          "green-300": "#082A00",
           "yellow-100": "#ece8bc",
         },
       },
