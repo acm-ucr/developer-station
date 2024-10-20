@@ -1,12 +1,9 @@
 const TryCourseButton = () => {
   return (
-    <div className="relative w-[20%] p-1.5">
-
-      <div className="flex justify-center">
-        <button className="relative w-[96%] rounded-full bg-[#eaf7dc] px-12 py-3 text-xl font-bold text-black shadow-md">
-          <p>TRY COURSE</p>
-        </button>
-      </div>
+    <div className="w-1/3 rounded-full bg-devstation-green-200 px-7 py-3">
+      <button className="w-full rounded-full bg-devstation-green-100 px-5 py-1 text-[3vw] text-devstation-yellow-100">
+        TRY COURSE
+      </button>
     </div>
   );
 };
