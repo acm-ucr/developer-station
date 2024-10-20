@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
-    extend: { 
+    extend: {
       colors: {
         devstation: {
           "green-100": "#114C03",
