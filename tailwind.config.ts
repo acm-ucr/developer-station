@@ -2,9 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
-    extend: {
+    extend: { 
+      colors: {
+        devstation: {
+          "green-100": "#114C03",
+          "green-200": "#498A39",
+        },
+      },
       fontFamily: {
-        Malayalam: ["Malayalam MN", "sans-serif"],
+        malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
   },
