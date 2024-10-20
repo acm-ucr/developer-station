@@ -11,6 +11,9 @@ module.exports = {
           "yellow-100": "#ece8bc",
         },
       },
+      fontFamily: {
+        malayalam: ["Malayalam MN", "sans-serif"],
+      },
     },
   },
   plugins: [],
