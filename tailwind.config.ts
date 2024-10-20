@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Malayalam: ["Malayalam MN", "sans-serif"],
-      }
+      },
     },
   },
   plugins: [],
