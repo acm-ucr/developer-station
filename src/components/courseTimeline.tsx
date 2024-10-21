@@ -1,6 +1,6 @@
 const CourseTimeline = () => {
   return (
-    <div className="flex w-3/4 flex-col items-center rounded-xl bg-devstation-blue-100 px-[6vw] py-[6vh] text-devstation-yellow-50">
+    <div className="flex w-3/4 flex-col items-center rounded-xl bg-devstation-cyan-100 px-[6vw] py-[6vh] text-devstation-yellow-50">
       <h1 className="text-center text-[1.75vw]">Timeline of Course</h1>
       <div>
         <h2 className="mb-4 text-[1.75vw]">Lorem Ipsum</h2>
