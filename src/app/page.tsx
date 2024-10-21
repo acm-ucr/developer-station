@@ -1,11 +1,11 @@
 
 import Image from "next/image";
-import train from "/public/landing/landingpagetrain.png";
-import path from "/public/landing/landingpagetrainpath.png";
-import rectangle35 from "/public/landing/Rectangle35.png";
-import rectangle36 from "/public/landing/Rectangle36.png";
-import rectangle37 from "/public/landing/Rectangle37.png";
-import ellipse13 from "/public/landing/Ellipse13.png";
+import train from "/public/landing/landingpagetrain.webp";
+import path from "/public/landing/landingpagetrainpath.webp";
+import rectangle35 from "/public/landing/Rectangle35.webp";
+import rectangle36 from "/public/landing/Rectangle36.webp";
+import rectangle37 from "/public/landing/Rectangle37.webp";
+import ellipse13 from "/public/landing/Ellipse13.webp";
 
 const Home = () => {
   return (
