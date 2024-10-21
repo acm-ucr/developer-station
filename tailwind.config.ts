@@ -9,8 +9,8 @@ module.exports = {
           "yellow-100": "#FDE491",
           "cyan-100": "#023851",
         },
-       },
-       fontFamily: {
+      },
+      fontFamily: {
         Malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
