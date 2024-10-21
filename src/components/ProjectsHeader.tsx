@@ -1,11 +1,11 @@
-import ProjectPic from "@/public/images/Projects_home.svg";
+import ProjectPic from "@/public/images/Projectshome1.svg";
 import Image from "next/image";
 
 const ProjectsHome = () => {
   return (
-    <div className="relative flex">
+    <div className="flex">
       <Image alt="header" src={ProjectPic} />
-      <p className="absolute ml-[45%] mt-[45%] font-malayalam text-9xl text-white">
+      <p className="absolute ml-[38%] mt-[42%] font-malayalam text-[12vh] text-[12vw] text-devstation-yellow-100">
         PROJECTS
       </p>
     </div>
