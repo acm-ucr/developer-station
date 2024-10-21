@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <Image src={backgroundImage} alt={title} className="rounded-2xl" />
         )}
 
-        <div className="absolute flex items-end justify-end px-[2px] py-[20px] text-right uppercase">
+        <div className="absolute flex items-end justify-end px-0.5 py-5 text-right uppercase">
           {title}
         </div>
       </div>
