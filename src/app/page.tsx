@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import train from "/public/landing/landingpagetrain.png";
 import path from "/public/landing/landingpagetrainpath.png";
