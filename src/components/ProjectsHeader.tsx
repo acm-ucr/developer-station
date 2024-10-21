@@ -1,4 +1,4 @@
-import ProjectPic from "@/public/images/Projectshome1.svg";
+import ProjectPic from "@/public/images/Projectshome1.webp";
 import Image from "next/image";
 
 const ProjectsHome = () => {
