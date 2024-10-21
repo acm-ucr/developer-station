@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import train from "/public/landing/landingpagetrain.webp";
 import path from "/public/landing/landingpagetrainpath.webp";
