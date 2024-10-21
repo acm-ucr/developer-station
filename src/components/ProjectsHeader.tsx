@@ -5,7 +5,7 @@ const ProjectsHome = () => {
   return (
     <div className="flex">
       <Image alt="header" src={ProjectPic} />
-      <p className="absolute ml-[38%] mt-[42%] font-malayalam text-[11vw] text-devstation-yellow-100">
+      <p className="absolute ml-[38%] mt-[42%] font-malayalam text-[11vw] text-devstation-yellow-300">
         PROJECTS
       </p>
     </div>
