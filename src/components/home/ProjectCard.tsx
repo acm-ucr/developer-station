@@ -13,7 +13,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className="flex flex-col items-center rounded-2xl border-4 border-devstation-green-500 bg-devstation-green-400 p-5">
-
       <div className="mb-2 flex w-3/4 items-end justify-end rounded-2xl">
         {backgroundImage && (
           <Image src={backgroundImage} alt={title} className="rounded-2xl" />
