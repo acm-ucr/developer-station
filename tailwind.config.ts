@@ -11,8 +11,10 @@ module.exports = {
           "green-300": "#082A00",
           "green-400": "#3B7227B2",
           "green-500": "#529546",
+          "yellow-50": "#FFF4B8",
           "yellow-100": "#ece8bc",
           "yellow-200": "#FDE491",
+          "yellow-300": "#FFE485",
         },
       },
       fontFamily: {
