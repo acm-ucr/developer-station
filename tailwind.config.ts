@@ -14,6 +14,7 @@ module.exports = {
           "cyan-100": "#023851",
           "green-300": "#082A00",
           "yellow-100": "#ece8bc",
+          "yellow-300": "#FFE485",
         },
       },
       fontFamily: {
