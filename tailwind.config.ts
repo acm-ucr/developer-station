@@ -4,17 +4,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "dark-cyan": "#023851",
-      },
-      fontSize: {
-        description: ["25.26px", "35.98px"],
-      },
-      lineHeight: {
-        185: "185px",
-        87: "87px",
+        devstation: {
+          "cyan-100": "#023851",
+          "green-100": "#114C03",
+          "green-200": "#498A39",
+          "green-300": "#082A00",
+          "green-400": "#3B7227B2",
+          "green-500": "#529546",
+          "yellow-50": "#FFF4B8",
+          "yellow-100": "#ece8bc",
+          "yellow-200": "#FDE491",
+          "yellow-300": "#FFE485",
+        },
       },
       fontFamily: {
-        Malayalam: ["Malayalam MN", "sans-serif"],
+        malayalam: ["Malayalam MN", "sans-serif"],
       },
     },
   },
