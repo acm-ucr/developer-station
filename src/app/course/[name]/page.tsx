@@ -12,11 +12,11 @@ export async function generateStaticParams() {
 }
 
 const Page = ({ params }: props) => {
-  console.log(params);
+  const { name } = params;
 
   return (
     <>
-      <Name>hello</Name>
+      <Name>{name}</Name>
     </>
   );
 };
