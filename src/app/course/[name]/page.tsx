@@ -8,7 +8,7 @@ interface props {
 }
 
 export async function generateStaticParams() {
-  return courses.map(({ param }) => ({ param }));
+  return courses.map(({ param }) => ({ name: param }));
 }
 
 const Page = ({ params }: props) => {
