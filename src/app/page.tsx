@@ -5,6 +5,10 @@ import rectangle35 from "/public/landing/Rectangle35.webp";
 import rectangle36 from "/public/landing/Rectangle36.webp";
 import rectangle37 from "/public/landing/Rectangle37.webp";
 import ellipse13 from "/public/landing/Ellipse13.webp";
+import ProjectCard from "@/components/home/ProjectCard";
+import backgroundImage from "/public/images/Projectshome1.webp";
+import { Layout } from "lucide-react";
+import CourseLayout from "@/components/course/layout";
 
 const Home = () => {
   return (
@@ -55,6 +59,9 @@ const Home = () => {
           Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           Lorem Ipsum
         </p>
+      </div>
+      <div>
+        <CourseLayout />
       </div>
     </div>
   );
