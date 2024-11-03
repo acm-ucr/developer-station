@@ -4,9 +4,9 @@ import Projects from "@/components/home/Projects";
 const Home = () => {
   return (
     <div>
-      <Landing/>
-      <About/>
-      <Projects/>
+      <Landing />
+      <About />
+      <Projects />
     </div>
   );
 };

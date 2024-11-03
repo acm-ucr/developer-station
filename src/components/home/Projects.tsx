@@ -3,13 +3,13 @@ import backgroundImage from "/public/images/Projectshome1.webp";
 const Projects = () => {
   return (
     <div className="mx-[3vw] my-[5vw] flex flex-col items-center rounded-xl bg-devstation-green-200 bg-opacity-80 p-[2.5vw] text-center text-white">
-      <div className="text-[4vw]">Our Projects</div> 
+      <div className="text-[4vw]">Our Projects</div>
 
       <div className="mb-[2vw] text-lg">
         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
       </div>
-      <div className="grid flex-col items-center justify-center grid-cols-3">
+      <div className="grid grid-cols-3 flex-col items-center justify-center">
         <div className="mx-[2vw] mb-[1vw]">
           <ProjectCard
             backgroundImage={backgroundImage}
