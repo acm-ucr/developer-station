@@ -10,6 +10,7 @@ const nextConfig = {
   },
   basePath: "",
   assetPrefix: "",
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
