@@ -4,7 +4,7 @@ interface CourseNameProps {
 
 const Name = ({ children }: CourseNameProps) => {
   return (
-    <div className="font-Malayalam rounded-2xl bg-devstation-cyan-100 py-4 text-center text-6xl text-white">
+    <div className="font-Malayalam w-[65vw] rounded-2xl bg-devstation-cyan-100 p-[2vw] text-center text-[4vw] text-white">
       {children}
     </div>
   );
