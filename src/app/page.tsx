@@ -3,7 +3,6 @@ import HomePic from "@/public/images/homePage2.webp";
 import Landing from "@/components/home/Landing";
 import About from "@/components/home/about";
 import ProjectCard from "@/components/home/ProjectCard";
-import Cat from "@/public/images/randomCat.webp";
 
 const Home = () => {
   return (
@@ -14,9 +13,9 @@ const Home = () => {
         <div className="absolute mt-[10%] text-white">
           <About />
         </div>
-        <div className="absolute ml-[8vw] mt-[200vh] w-1/4">
+        <div className="absolute ml-[8vw] w-1/4">
           <ProjectCard
-            backgroundImage={Cat}
+            backgroundImage={HomePic}
             title="Lorem Ipsum"
             description="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
