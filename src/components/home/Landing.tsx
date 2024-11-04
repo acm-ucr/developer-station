@@ -9,7 +9,7 @@ import rectangle37 from "/public/landing/Rectangle37.webp";
 import ellipse13 from "/public/landing/Ellipse13.webp";
 const Landing = () => {
   return (
-    <div className="flex h-screen w-screen flex-col bg-gradient-to-t from-blue-700 to-blue-950 dark:bg-gradient-to-t from-sky-100 to-sky-600">
+    <div className="flex h-screen w-screen flex-col bg-gradient-to-t from-blue-700 from-sky-100 to-blue-950 to-sky-600 dark:bg-gradient-to-t">
       <div>
         <div className="h-1/8 flex flex-row justify-between p-4">
           <div className="ml-4 h-8 w-24 bg-gray-300 text-center">
@@ -50,9 +50,17 @@ const Landing = () => {
       </div>
 
       <div className="relative h-1/2">
-        <Image className="absolute h-3/4 w-full" src={lightRectangle35} alt="" />
+        <Image
+          className="absolute h-3/4 w-full"
+          src={lightRectangle35}
+          alt=""
+        />
         <Image className="relative top-48 h-5/6 w-full" src={path} alt="" />
-        <Image className="absolute top-8 h-full w-full" src={lightTrain} alt="" />
+        <Image
+          className="absolute top-8 h-full w-full"
+          src={lightTrain}
+          alt=""
+        />
       </div>
 
       <div className="flex h-1/4 flex-row pb-12">
