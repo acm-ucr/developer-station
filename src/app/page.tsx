@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HomePic from "@/public/images/homePage2.webp";
 import train from "/public/landing/landingpagetrain.webp";
 import path from "/public/landing/landingpagetrainpath.webp";
 import rectangle35 from "/public/landing/Rectangle35.webp";
@@ -8,9 +9,9 @@ import ellipse13 from "/public/landing/Ellipse13.webp";
 
 const Home = () => {
   return (
-    <div className="flex h-screen w-screen flex-col bg-gradient-to-t from-blue-700 to-blue-950">
+    <div className="flex h-screen w-screen flex-col bg-gradient-to-t from-devstation-blue-400 to-blue-950">
       <div className="">
-        <div className="h-1/8 flex flex-row justify-between p-4">
+        <div className="h-1/8 flex flex-row justify-between">
           <div className="h-8 w-8 rounded-full bg-gray-300"></div>
           <div className="ml-4 h-8 w-24 bg-gray-300 text-center">
             <p className="bg-gray-300 p-2">LOGO</p>
@@ -23,7 +24,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="h-1/8 relative flex w-full flex-col space-y-4 pt-8">
+        <div className="h-1/8 relative flex w-full flex-col pt-8">
           <Image
             className="relative ml-4 h-1/6 w-1/6"
             src={rectangle36}
@@ -49,13 +50,14 @@ const Home = () => {
         <Image className="absolute top-8 h-full w-full" src={train} alt="" />
       </div>
 
-      <div className="flex h-1/4 flex-row pb-12">
+      <div className="flex h-1/4 flex-row">
         <p className="ml-11 w-1/4 font-malayalam text-lg text-white">
           Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
           Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
           Lorem Ipsum
         </p>
       </div>
+      <Image alt="graphics of home page" src={HomePic} />
     </div>
   );
 };
