@@ -1,6 +1,5 @@
 "use client";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "/public/landing/acmdslogo.png";
 
 const NavbarBS = () => {
   return (
