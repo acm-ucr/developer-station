@@ -16,6 +16,7 @@ module.exports = {
           "yellow-100": "#ece8bc",
           "yellow-200": "#FDE491",
           "yellow-300": "#FFE485",
+          "yellow-400": "#FFE248",
         },
       },
       fontFamily: {
