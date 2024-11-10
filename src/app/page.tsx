@@ -12,10 +12,10 @@ const Home = () => {
         <div className="relative mt-[10%] text-white">
           <About />
         </div>
-        <div className ="flex h-screen w-screen justify-center">
-          <div className = "flex relative bg-devstation-green-200 bg-opacity-70 rounded-2xl mt-[50%] h-[90%] w-[90%]"/>
-        </div>    
-    </div>
+        <div className="flex h-screen w-screen justify-center">
+          <div className="relative mt-[50%] flex h-[90%] w-[90%] rounded-2xl bg-devstation-green-200 bg-opacity-70" />
+        </div>
+      </div>
     </div>
   );
 };
