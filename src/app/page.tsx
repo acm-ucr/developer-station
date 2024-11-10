@@ -3,7 +3,6 @@ import HomePic from "@/public/images/homePage.webp";
 import Landing from "@/components/home/Landing";
 import About from "@/components/home/about";
 import Projects from "@/components/home/Projects";
-import CourseLearnPage from "@/components/course/courseLearnPage";
 
 const Home = () => {
   return (
@@ -19,7 +18,6 @@ const Home = () => {
         </div>
       </div>
       <Projects />
-      <CourseLearnPage />
     </div>
   );
 };
