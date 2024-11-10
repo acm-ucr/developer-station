@@ -2,6 +2,8 @@ import Image from "next/image";
 import HomePic from "@/public/images/homePage.webp";
 import Landing from "@/components/home/Landing";
 import About from "@/components/home/about";
+import Projects from "@/components/home/Projects";
+import CourseLearnPage from "@/components/course/courseLearnPage";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
           <div className="relative mt-[50%] flex h-[90%] w-[90%] rounded-2xl bg-devstation-green-200 bg-opacity-70" />
         </div>
       </div>
+      <Projects/>
+      <CourseLearnPage/>
     </div>
   );
 };

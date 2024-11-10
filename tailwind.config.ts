@@ -7,6 +7,7 @@ module.exports = {
         devstation: {
           "blue-400": "#001A9F",
           "cyan-100": "#023851",
+          "green-50": "#E4FFDD",
           "green-100": "#114C03",
           "green-200": "#498A39",
           "green-300": "#082A00",
@@ -17,6 +18,7 @@ module.exports = {
           "yellow-200": "#FDE491",
           "yellow-300": "#FFE485",
           "yellow-400": "#FFE248",
+          "blue-50": "#EBFBFF",
         },
       },
       fontFamily: {

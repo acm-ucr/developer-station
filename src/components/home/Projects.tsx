@@ -2,7 +2,7 @@ import ProjectCard from "../home/ProjectCard";
 import backgroundImage from "/public/images/Projectshome1.webp";
 const Projects = () => {
   return (
-    <div className="mx-[3vw] my-[5vw] flex flex-col items-center rounded-xl bg-devstation-green-200 bg-opacity-80 p-[2.5vw] text-center text-white">
+    <div className="mx-[3vw] my-[5vw] flex flex-col items-center rounded-xl bg-devstation-green-50 bg-opacity-80 p-[2.5vw] text-center text-black dark:bg-devstation-green-200 dark:text-white">
       <div className="text-[4vw]">Our Projects</div>
 
       <div className="mb-[2vw] text-lg">
