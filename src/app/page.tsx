@@ -1,28 +1,21 @@
 import Image from "next/image";
-import HomePic from "@/public/images/homePage2.webp";
+import HomePic from "@/public/images/homePage.webp";
 import Landing from "@/components/home/Landing";
 import About from "@/components/home/about";
-import ProjectCard from "@/components/home/ProjectCard";
 
 const Home = () => {
   return (
     <div>
       <Landing />
       <div className="flex flex-col">
-        <Image alt="graphics of home page" src={HomePic} />
-        <div className="absolute mt-[10%] text-white">
+        <Image alt="graphics of home page" src={HomePic} className="absolute" />
+        <div className="relative mt-[10%] text-white">
           <About />
         </div>
-        <div className="absolute ml-[8vw] w-1/4">
-          <ProjectCard
-            backgroundImage={HomePic}
-            title="Lorem Ipsum"
-            description="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-          />
-        </div>
-      </div>
+        <div className ="flex h-screen w-screen justify-center">
+          <div className = "flex relative bg-devstation-green-200 bg-opacity-70 rounded-2xl mt-[50%] h-[90%] w-[90%]"/>
+        </div>    
+    </div>
     </div>
   );
 };
