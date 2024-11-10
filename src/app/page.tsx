@@ -18,8 +18,8 @@ const Home = () => {
           <div className="relative mt-[50%] flex h-[90%] w-[90%] rounded-2xl bg-devstation-green-200 bg-opacity-70" />
         </div>
       </div>
-      <Projects/>
-      <CourseLearnPage/>
+      <Projects />
+      <CourseLearnPage />
     </div>
   );
 };
