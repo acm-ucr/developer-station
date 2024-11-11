@@ -5,12 +5,12 @@ import rectangle35 from "/public/landing/Rectangle35.webp";
 import rectangle36 from "/public/landing/Rectangle36.webp";
 import rectangle37 from "/public/landing/Rectangle37.webp";
 import ellipse13 from "/public/landing/Ellipse13.webp";
-import NavbarBS from "@/components/NavbarBS";
+import Navbar from "@/components/Navbar";
 
 const Home = () => {
   return (
     <div className="flex h-screen w-screen flex-col bg-gradient-to-t from-blue-700 to-blue-950">
-      <NavbarBS></NavbarBS>
+      <Navbar />
       <div className="">
         <div className="h-1/8 flex flex-row justify-between p-4">
           <div className="h-8 w-8 rounded-full bg-gray-300"></div>
