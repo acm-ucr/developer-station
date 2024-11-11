@@ -4,7 +4,7 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
-import logo from "@/public/images/acmdslogo.png";
+import logo from "@/public/images/acmdslogo.webp";
 import Image from "next/image";
 
 const Navbar = () => {
