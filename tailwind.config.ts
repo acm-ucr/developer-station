@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         devstation: {
+          "blue-400": "#001A9F",
           "cyan-100": "#023851",
           "green-50": "#E4FFDD",
           "green-100": "#114C03",
