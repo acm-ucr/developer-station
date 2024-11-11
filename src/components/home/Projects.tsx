@@ -1,5 +1,6 @@
 import ProjectCard from "../home/ProjectCard";
-import backgroundImage from "/public/images/Projectshome1.webp";
+import backgroundImage from "@/public/projects/projects-header-bg-image-dark.webp";
+
 const Projects = () => {
   return (
     <div className="mx-[3vw] my-[5vw] flex flex-col items-center rounded-xl bg-devstation-green-50 bg-opacity-80 p-[2.5vw] text-center text-black dark:bg-devstation-green-200 dark:text-white">
