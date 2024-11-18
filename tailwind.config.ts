@@ -70,11 +70,11 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
 
-      dropShadow: {
-        glow: "0 0 15px rgba(250, 204, 21, 0.8)",
-
+        dropShadow: {
+          glow: "0 0 15px rgba(250, 204, 21, 0.8)",
+        },
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
