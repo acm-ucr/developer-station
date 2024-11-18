@@ -24,6 +24,9 @@ module.exports = {
       fontFamily: {
         malayalam: ["Malayalam MN", "sans-serif"],
       },
+      dropShadow: {
+        glow: "0 0 15px rgba(250, 204, 21, 0.8)",
+      },
     },
   },
   plugins: [],
