@@ -7,6 +7,7 @@ import rectangle35 from "/public/landing/Rectangle35.webp";
 import rectangle36 from "/public/landing/Rectangle36.webp";
 import rectangle37 from "/public/landing/Rectangle37.webp";
 import ellipse13 from "/public/landing/Ellipse13.webp";
+
 const Landing = () => {
   return (
     <div className="flex h-screen w-screen flex-col bg-gradient-to-t from-sky-100 to-sky-600 dark:from-blue-700 dark:to-blue-950">
