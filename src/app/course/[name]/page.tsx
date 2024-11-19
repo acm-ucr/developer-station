@@ -1,5 +1,7 @@
-import Name from "@/components/course/name";
+import coursePic from "@/public/images/courseLearnPic.webp";
+import CourseLearnPage from "@/components/course/courseLearnPage";
 import { courses } from "@/courses";
+import Image from "next/image";
 
 interface props {
   params: {
@@ -16,7 +18,14 @@ const Page = ({ params }: props) => {
 
   return (
     <>
-      <Name>{name}</Name>
+      <Image
+        alt="graphics of course page"
+        src={coursePic}
+        className="absolute"
+      />
+      <div className="relative">
+        <CourseLearnPage title={name} />
+      </div>
     </>
   );
 };
