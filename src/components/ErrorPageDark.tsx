@@ -7,7 +7,7 @@ const ErrorPageDark = () => {
       <div className="relative h-full w-full">
         <Image src={errorImageDark} alt="Error background" fill priority />
       </div>
-      <p className="font-sans-serif absolute -translate-y-[9vh] text-[8vw] text-yellow-400 drop-shadow-glow">
+      <p className="font-sans-serif drop-shadow-glow absolute -translate-y-[9vh] text-[8vw] text-yellow-400">
         404 Error
       </p>
     </div>
